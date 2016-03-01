@@ -1,0 +1,85 @@
+body { 
+/*    font-family: 'Open Sans',       sans-serif; */
+  font-family: 'Roboto Slab', serif;
+/*   background: rgb(213, 214, 216); */
+  background: 
+
+background: #9D50BB; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #9D50BB , #6E48AA); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #9D50BB , #6E48AA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+/*   color: rgb(52, 50, 51); */
+  color: rgb(222, 223, 224);
+}
+
+main {
+  width: 400px;
+/*   background: blue; */
+  text-align: center;
+  margin: 0 auto
+}
+
+/*  .current {
+   background: red;
+  float: right;
+   font-size: 1.5em;
+ } */
+
+.parent {
+  font-family: 'Open Sans',       sans-serif;
+  font-size: 3em;
+/*   background: green; */
+  margin: -2px 4px; 
+}
+
+.texty {
+  font-size: 1em;
+/*   background: yellow; */
+/*   margin: -75px 7px; */
+/*   float: right; */
+  float: left;
+  
+}
+
+.icon {
+/*   background: purple; */
+  float: left;
+  display: block;
+}
+
+.child {
+/*   background: red; */
+  font-size: .5em;
+  float: left;
+  }
+
+.average {
+/*   background: blue; */
+  display: block;
+  font-size: 1.25em;
+}
+
+.low, .group  {
+  float: right;
+  
+}
+
+.low, .high {
+  font-family: 'Open Sans',       sans-serif;
+}
+
+.geolocation:hover {
+    
+  color: rgb(222, 223, 224);
+  border-radius: 100px;
+  transition: all .5s;
+  background: #8e9eab;
+}
+
+.geolocation {
+  color: rgb(70, 70, 72);
+  border-radius: 10px;
+  background: #8e9eab;
+  float: right;
+}
+
